@@ -1,0 +1,21 @@
+:root,
+:host,
+.sl-theme-light {
+    --sl-color-primary-50: hsl(252, 100%, 96%);
+    --sl-color-primary-100:hsl(252, 94%, 88%);
+    --sl-color-primary-200:hsl(252, 72%, 76%);
+    --sl-color-primary-300:hsl(252, 69%, 65%);
+    --sl-color-primary-400:hsl(266, 100%, 64%);
+    --sl-color-primary-500:hsl(265, 100%, 47%);
+    --sl-color-primary-600:hsl(263, 96%, 39%);
+    --sl-color-primary-700:hsl(263, 96%, 39%);
+    --sl-color-primary-800:hsl(263, 94%, 28%);
+    --sl-color-primary-900:hsl(263, 95%, 24%);
+    --sl-color-primary-950:hsl(263, 94%, 19%);
+
+    --sl-input-focus-ring-color: hsla(263, 96%, 39%, 0.7);
+}
+html{
+    /* stop scrollbar pushing content to left */
+    overflow: overlay;
+}

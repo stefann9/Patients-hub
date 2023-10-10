@@ -1,0 +1,62 @@
+.container-title{
+    height: 18px;
+    width: fit-content;
+    margin-left: 73px;
+    margin-top: 5px;
+}
+#selected-speciality {
+    text-align: center;
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 19px;
+    width: 100%;
+    margin: 0;
+    padding: 3px 5px;
+    border-radius: 30px;
+}
+
+#selected-speciality.Cardiology {
+    background-color: #fb4d4d;
+}
+
+sl-icon{
+    cursor: pointer;
+}
+sl-details{
+    margin-top:1rem;
+    margin-bottom: 2rem;
+    margin-right: 8%;
+    margin-left: 8%;
+}
+.collapse::part(base){
+    background-color: inherit;
+}
+
+.collapse::part(summary){
+    background-color: inherit;
+    border: none;
+    padding: 0;
+
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#container-specialities {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    row-gap: 8px;
+    column-gap: 16px;
+    max-height:300px;
+    overflow-y: auto;
+}
+
+@media screen and (max-width: 774px){
+    #container-specialities{
+        justify-content: center;
+    }
+}

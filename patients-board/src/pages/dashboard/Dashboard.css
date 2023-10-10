@@ -1,0 +1,45 @@
+#title{
+    width: 91%;
+    height: 34px;
+    margin-top: 35px;
+    margin-bottom:0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.patient-card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap:20px;
+    margin: 2%;
+}
+
+.patient-card-container > :last-child {
+    align-self: center;
+}
+
+.add-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 260px;
+}
+
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#filter-specialities{
+    width: 100%;
+
+}

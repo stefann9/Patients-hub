@@ -1,0 +1,53 @@
+.pacient-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.pacient-title {
+  color: #4d04c3;
+  text-decoration: underline;
+  font-size: 32px;
+}
+
+.pacient-expand {
+  width: 80vw;
+}
+
+.pacient-expand::part(base) {
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, 0.2);
+}
+
+.default-color::part(base) {
+  background-color: #fafcff;
+}
+
+.pacient-expand:hover::part(base) {
+  background-color: rgba(108, 218, 231, 0.2);
+}
+
+.active-color::part(base) {
+  background-color: rgba(108, 218, 231, 0.4);
+}
+
+.details-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.strong-summary {
+  font-size: 16px;
+}
+
+.info-summary {
+  font-size: 14px;
+}
+
+.pacient-expand::part(summary-icon) {
+  display: none;
+}

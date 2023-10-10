@@ -1,0 +1,73 @@
+.container-details.evolution-treatments{
+    margin-bottom: 0;
+    margin-top:0;
+}
+
+.container-treatments .date-treatment {
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 16px;
+
+    color: #9747FF;
+}
+.container-treatments .date-treatment sl-icon-button::part(base) {
+    color: #FF9A00;
+}
+.container-treatments .treatment {
+    margin:0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+
+
+.container-dates-from-to{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.container-dates-from-to sl-input{
+    width: 25%;
+    min-width: fit-content;
+}
+
+.container-add-new-info .container-add-dismiss{
+    display: flex;
+    row-gap: 1rem;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top:2rem;
+}
+.container-add-new-info .container-add-dismiss sl-button{
+    width: 30%;
+    min-width: fit-content;
+    min-width: 247px;
+}
+
+
+sl-button.add-treatment-btn {
+    align-self: center;
+}
+ sl-button.add-treatment-btn::part(base) {
+    align-self: center;
+    width: fit-content;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    background-color: inherit;
+    color: #2D9FC2;
+    border: none;
+}
+
+.container-details.evolution-treatments sl-button.save-btn{
+    margin-top:10px;
+}

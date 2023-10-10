@@ -1,0 +1,41 @@
+.diagnosis-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.diagnosis-form sl-textarea::part(form-control-label) {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #4A5568;
+}
+
+.diagnosis-form sl-textarea{
+    width: 80%;
+}
+
+.save-btn::part(base) {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  width: 250px;
+  height: 40px;
+  text-align: center;
+  background: #4D04C4;
+  color: white;
+  border-radius: 5px;
+}
+
+.save-btn::part(base):hover {
+  color: #4D04C4;
+  border-color: #4D04C4;
+  background-color: rgb(85, 103, 206);
+}
+

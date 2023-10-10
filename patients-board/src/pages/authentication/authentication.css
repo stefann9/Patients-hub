@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #4a5568;
+  background-color: #f5f5f5;
+}
+
+.medic-image {
+  background-image: url("../../images/medic.png");
+}
+
+.stethoscope-image {
+  background-image: url("../../images/stethoscope.png");
+}
+
+.background {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+}
+
+@media screen and (max-height: 900px) {
+  .background {
+    height: 100%;
+  }
+}
+
+.authentication-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.big-auth {
+  height: 100%;
+}
+
+.form-container {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+
+@media screen and (max-width: 780px) {
+  .background {
+    background-image: none;
+    background-color: #f5f5f5;
+  }
+
+  .form-container {
+    width: 100%;
+  }
+}
+
+.auth-button {
+  margin-top: 40px;
+}
+
+.auth-button::part(base) {
+  font-size: 20px;
+}
+
+.form-element {
+  width: 350px;
+}
+
+.form-element::part(form-control-label) {
+  padding: 20px 0;
+}
+
+.link-redirect {
+  text-align: center;
+}
+
+.redirect-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.redirect-container .link-redirect:first-child {
+  margin-top: 40px;
+}
+
+p {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #2d9fc2;
+}
